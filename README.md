@@ -2,7 +2,7 @@
 - ### This development will help you calculate the area of a circle , triangle or square.
 
 #### Formula:
-C#
+```C#
 Circle:
 const double PI = Math.PI;
 double radius = Convert.ToDouble(Console.ReadLine());
@@ -14,22 +14,26 @@ double areaOfTriagle = sideOfTriagle * (heightOfTriagle * heightOfTriagle);
 Square:
 double sideOfSquare = Convert.ToDouble(Console.ReadLine());
 double areaOfSquare = sideOfSquare * sideOfSquare;
+```
 
 #### Types:
-C#
+```C#
 int & double & string & const
+```
+A *constant* is a value that remains unchanged during program execution.
+
 #### Operators:
-C#
-if(){...}
-else{...}
-The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+```C#
+switch
+```
+The ***switch*** statement provides multidirctional brancing in the program.
 
 #### Functions:
-C#
+```C#
 Output to console: Console.WriteLine();
 Input from console: Console.ReadLine();
 Converts: Convert.ToDouble();
-A *constant* is a value that remains unchanged during program execution.
+```
 * Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
@@ -38,7 +42,7 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 ![](./demoGeometryGuru/demo0.1.png)
 
-If statement:
+Switch statement:
 
 ![](./demoGeometryGuru/demoInCodeSwitchVersion.png)
 

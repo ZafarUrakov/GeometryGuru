@@ -40,7 +40,7 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 If statement:
 
-![](./demoGeometryGuru/demoInCode.png)
+![](./demoGeometryGuru/demoInCodeSwitchVersion.png)
 
 If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v1.0) !
 

@@ -42,7 +42,9 @@ If statement:
 
 ![](./demoGeometryGuru/demoInCodeSwitchVersion.png)
 
-If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v1.0) !
+
+If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) !
+
 
 
 ### You can take my code and try it yourself !

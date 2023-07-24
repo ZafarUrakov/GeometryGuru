@@ -44,7 +44,7 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 Switch statement:
 
-![](./demoGeometryGuru/demoInCodeSwitchVersion.png)
+![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
 
 If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) !
 

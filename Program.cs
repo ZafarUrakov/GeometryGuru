@@ -16,8 +16,9 @@ namespace GeometryGuru
             Console.Write("Choice: ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
-            if(choice == 1)
+            switch(choice)
             {
+                case 1:
                 Console.Write("\nEnter the radius of the circle: ");
                 var radius = double.Parse(Console.ReadLine()!);
 
@@ -29,10 +30,10 @@ namespace GeometryGuru
                 Console.WriteLine($"{PI} * ({radius} * {radius}) = ... ???\n");
                 var radiusSquared = radius * radius;
                 Console.WriteLine($"Area = " + radiusSquared * PI); 
-            }   
-            else if(choice == 2)
-            {
-                 Console.WriteLine("\nEnter the height and side of the triagle.\n");
+                break;
+
+                case 2:
+                Console.WriteLine("\nEnter the height and side of the triagle.\n");
 
                 Console.Write("Height:");
                 double heightOfTriagle = Convert.ToDouble(Console.ReadLine());
@@ -44,9 +45,9 @@ namespace GeometryGuru
                 double areaOfTriagle = sideOfTriagle * (heightOfTriagle * heightOfTriagle);
 
                 Console.WriteLine($"Area of a triagle : {areaOfTriagle}");
-            }
-            else if(choice == 3)
-            {
+                break;
+
+                case 3:
                 Console.WriteLine("\nEnter the side of the square.\n");
 
                 Console.Write("Square: ");
@@ -55,9 +56,12 @@ namespace GeometryGuru
                 double areaOfSquare = sideOfSquare * sideOfSquare;
 
                 Console.WriteLine($"Area of a square : {areaOfSquare}");
-            }
-            else 
+                break;
+            
+            default:
                 Console.WriteLine("There is no such choice , try again by entering \"dotnet run\" ");
+                break;
+            }
         }
     }
 }

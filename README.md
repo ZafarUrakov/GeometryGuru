@@ -26,6 +26,10 @@ if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+```C#
+switch
+```
+The ***switch*** statement provides multidirctional brancing in the program.
 
 #### Functions:
 ```C#
@@ -39,17 +43,32 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 
 #### Demo:
+Option 1:
+![](./demoGeometryGuru/oldQuestion.png)
 
+Option 2:
 ![](./demoGeometryGuru/demo0.1.png)
 
 If statement:
 
 ![](./demoGeometryGuru/demoInCode.png)
 
-If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v1.0) !
+Switch statement:
 
+![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
 
-### You can take my code and try it yourself !
+## Release Notes
+In the [first](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v1.0) version of the project , we used only arithmetic operations with input and output to the console , and it was only possible to calculate the area of a circle.
+
+As for this version , you can already find the are of circle , a triangle , and another square , is not that cool? In general you can see changes in the code like :
+
+- The work of the code has been made easier.
+- Logical operators such as switch and if-else have been added.
+- Same buds have been fixed.
+
+This is not all , there will be changes soon.
+
+####  You can take my code and try it yourself 👇🏻
 
 1.About the list of files,click <> Code.
 

@@ -44,9 +44,11 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 Option 1:
+
 ![](./demoGeometryGuru/oldQuestion.png)
 
 Option 2:
+
 ![](./demoGeometryGuru/demo0.1.png)
 
 If statement:

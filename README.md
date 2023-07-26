@@ -62,7 +62,7 @@ Switch statement:
 ## Release Notes
 In the [first](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v1.0) version of the project , we used only arithmetic operations with input and output to the console , and it was only possible to calculate the area of a circle.
 
-As for this version , you can already find the are of circle , a triangle , and another square , is not that cool? In general you can see changes in the code like :
+As for this version , you can already find the are of circle , a triangle , and another square , is not that cool? In general you can see changes in the code like:
 
 - The work of the code has been made easier.
 - Logical operators such as switch and if-else have been added.

@@ -27,6 +27,9 @@ if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+
+![](./demoGeometryGuru/demoWithIf.png)
+
 ```C#
 switch
 ```

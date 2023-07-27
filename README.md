@@ -1,5 +1,5 @@
 # GeometryGuru
-- ### This development will help you calculate the area of a circle , triangle or square.
+  ### This development will help you calculate the area of a circle , triangle or square.
 
 #### Formula:
 ```C#
@@ -20,6 +20,7 @@ double areaOfSquare = sideOfSquare * sideOfSquare;
 ```C#
 int & double & string & const
 ```
+A *constant* is a value that remains unchanged during program execution.
 #### Operators:
 ```C#
 if(){...}
@@ -73,8 +74,7 @@ Output to console: Console.WriteLine();
 Input from console: Console.ReadLine();
 Converts: Convert.ToDouble();
 ```
-A *constant* is a value that remains unchanged during program execution.
-* Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
+Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 
@@ -89,7 +89,7 @@ As for this version , you may notice changes in the code like:
 
 - Loop operations have been added.
 - Simplified the code.
-- Fixed the errors.e been added.
+- Fixed the errors.
 
 Now, before you enter, the administrator will ask you.
 

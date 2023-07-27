@@ -9,7 +9,7 @@ namespace GeometryGuru
             do
             {
                 Console.WriteLine(@"
-                1.Enter the offer
+                1.Enter the application
                 2.Exit");
                 int usetChoice = Convert.ToInt32(Console.ReadLine()!);
                 if(usetChoice == 1)

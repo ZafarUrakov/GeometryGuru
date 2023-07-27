@@ -20,13 +20,48 @@ double areaOfSquare = sideOfSquare * sideOfSquare;
 ```C#
 int & double & string & const
 ```
-A *constant* is a value that remains unchanged during program execution.
-
 #### Operators:
 ```C#
-switch
+if(){...}
+else{...}
 ```
+The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+
 The ***switch*** statement provides multidirctional brancing in the program.
+
+![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
+
+```C#
+while(){...}
+for(){...}
+```
+Loops can execute a block of code as long as a specified condition is reached.
+
+Loops are handy because they save time, reduce errors, and they make code more readable.
+
+The ***while*** loop loops through a block of code as long as a specified condition is True:
+```C#
+while (condition) 
+{
+  // code block to be executed
+}
+```
+
+When you know exactly how many times you want to loop through a block of code, use the ***for*** loop instead of a ***while*** loop:
+```C#
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+}
+```
+
+**Statement 1** is executed (one time) before the execution of the code block.
+
+**Statement 2** defines the condition for executing the code block.
+
+**Statement 3** is executed (every time) after the code block has been executed.
+
+#### To understand more, look at the code  and try to run it!
 
 #### Functions:
 ```C#
@@ -40,16 +75,20 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](./demoGeometryGuru/demo0.1.png)
+![](./demoGeometryGuru/demoAll.png)
 
-Switch statement:
+## Release Notes
+In the [second](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) version of the project , we used only arithmetic operations with ***input*** and ***output*** to the console and we also used logical operations ***if-else*** and ***switch***.
 
-![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
+As for this version , you may notice changes in the code like:
 
-If you want to see the old version , follow the [link](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) !
+- Loop operations have been added.
+- Simplified the code.
+- Fixed the errors.
 
+Now, before you enter, the administrator will ask you.
 
-### You can take my code and try it yourself !
+####  You can take my code and try it yourself 👇🏻
 
 1.About the list of files,click <> Code.
 

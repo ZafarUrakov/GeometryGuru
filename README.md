@@ -82,7 +82,7 @@ Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](./demoGeometryGuru/demoAll.png)
+![](./demoGeometryGuru/demoall1.png)
 
 ## Release Notes
 In the [second](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) version of the project , we used only arithmetic operations with ***input*** and ***output*** to the console and we also used logical operations ***if-else*** and ***switch***.

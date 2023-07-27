@@ -6,62 +6,86 @@ namespace GeometryGuru
     {
         static void Main()
         {
-            Console.WriteLine(@"Want to calculate the area of a circle , square or a tringle?
-                So you are in the right place!");
-
-            Console.WriteLine(@"What geometric figure do you want to find the area of ?:
-            1.Circle
-            2.Tringle
-            3.Square");
-            Console.Write("Choice: ");
-            int choice = Convert.ToInt32(Console.ReadLine());
-
-            switch(choice)
+            do
             {
-                case 1:
-                Console.Write("\nEnter the radius of the circle: ");
-                var radius = double.Parse(Console.ReadLine()!);
+                Console.WriteLine(@"
+                1.Enter the offer
+                2.Exit");
+                int usetChoice = Convert.ToInt32(Console.ReadLine()!);
+                if(usetChoice == 1)
+                {
+                    Console.WriteLine(@"Want to calculate the area of a circle , square or a tringle?
+                        So you are in the right place!");
 
-                const double PI = 3.14;
+                    Console.WriteLine("O seeks the one who has my help! How old are you?");
+                    Console.Write("Old: ");
+                    int old = Convert.ToInt32(Console.ReadLine()!);
+                    if(old > 18)
+                    {
+                        Console.WriteLine("\nYou are too old for these tasks , think for yourelf!");
+                    }
+                    else 
+                    {
 
-                Console.WriteLine("\n...\n");
+                        Console.WriteLine(@"What geometric figure do you want to find the area of ?:
+                        1.Circle
+                        2.Tringle
+                        3.Square");
+                        Console.Write("Choice: ");
+                        int choice = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Couting is goig on ... ");
-                Console.WriteLine($"{PI} * ({radius} * {radius}) = ... ???\n");
-                var radiusSquared = radius * radius;
-                Console.WriteLine($"Area = " + radiusSquared * PI); 
-                break;
+                        switch(choice)
+                        {
+                            case 1:
+                            Console.Write("\nEnter the radius of the circle: ");
+                            var radius = double.Parse(Console.ReadLine()!);
 
-                case 2:
-                Console.WriteLine("\nEnter the height and side of the triagle.\n");
+                            const double PI = 3.14;
 
-                Console.Write("Height:");
-                double heightOfTriagle = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Side:");
-                double sideOfTriagle = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("\n...\n");
 
-                Console.WriteLine("\n...\n");
+                            Console.WriteLine("Couting is goig on ... ");
+                            Console.WriteLine($"{PI} * ({radius} * {radius}) = ... ???\n");
+                            var radiusSquared = radius * radius;
+                            Console.WriteLine($"Area = " + radiusSquared * PI); 
+                            break;
 
-                double areaOfTriagle = sideOfTriagle * (heightOfTriagle * heightOfTriagle);
+                            case 2:
+                            Console.WriteLine("\nEnter the height and side of the triagle.\n");
 
-                Console.WriteLine($"Area of a triagle : {areaOfTriagle}");
-                break;
+                            Console.Write("Height:");
+                            double heightOfTriagle = Convert.ToDouble(Console.ReadLine());
+                            Console.Write("Side:");
+                            double sideOfTriagle = Convert.ToDouble(Console.ReadLine());
 
-                case 3:
-                Console.WriteLine("\nEnter the side of the square.\n");
+                            Console.WriteLine("\n...\n");
 
-                Console.Write("Square: ");
-                double sideOfSquare = Convert.ToDouble(Console.ReadLine());
+                            double areaOfTriagle = sideOfTriagle * (heightOfTriagle * heightOfTriagle);
 
-                double areaOfSquare = sideOfSquare * sideOfSquare;
+                            Console.WriteLine($"Area of a triagle : {areaOfTriagle}");
+                            break;
 
-                Console.WriteLine($"Area of a square : {areaOfSquare}");
-                break;
-            
-            default:
-                Console.WriteLine("There is no such choice , try again by entering \"dotnet run\" ");
-                break;
+                            case 3:
+                            Console.WriteLine("\nEnter the side of the square.\n");
+
+                            Console.Write("Square: ");
+                            double sideOfSquare = Convert.ToDouble(Console.ReadLine());
+
+                            double areaOfSquare = sideOfSquare * sideOfSquare;
+
+                            Console.WriteLine($"Area of a square : {areaOfSquare}");
+                            break;
+                        
+                        default:
+                            Console.WriteLine("There is no such choice , try again by entering \"dotnet run\" ");
+                            break;
+                        }
+                    }
+                }
+                else
+                    break;    
             }
-        }
+            while(true);    
+        }    
     }
 }

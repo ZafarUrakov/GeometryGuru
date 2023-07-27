@@ -1,5 +1,5 @@
 # GeometryGuru
-- ### This development will help you calculate the area of a circle , triangle or square.
+  ### This development will help you calculate the area of a circle , triangle or square.
 
 #### Formula:
 ```C#
@@ -20,12 +20,16 @@ double areaOfSquare = sideOfSquare * sideOfSquare;
 ```C#
 int & double & string & const
 ```
+A *constant* is a value that remains unchanged during program execution.
 #### Operators:
 ```C#
 if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
+```C#
+switch
+```
 
 The ***switch*** statement provides multidirctional brancing in the program.
 
@@ -69,9 +73,9 @@ Output to console: Console.WriteLine();
 Input from console: Console.ReadLine();
 Converts: Convert.ToDouble();
 ```
-* Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
-Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
+Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
+Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 

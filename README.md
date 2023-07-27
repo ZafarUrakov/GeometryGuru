@@ -27,11 +27,10 @@ if(){...}
 else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
-
-![](./demoGeometryGuru/demoWithIf.png)
 ```C#
 switch
 ```
+
 The ***switch*** statement provides multidirctional brancing in the program.
 
 ![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
@@ -74,9 +73,9 @@ Output to console: Console.WriteLine();
 Input from console: Console.ReadLine();
 Converts: Convert.ToDouble();
 ```
+
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
-
 
 #### Demo:
 

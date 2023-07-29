@@ -90,6 +90,8 @@ In the [second](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) 
 As for this version , you may notice changes in the code like:
 
 - Loop operations have been added.
+- Add try-catch operations.
+- Add Jump statement goto.
 - Simplified the code.
 - Fixed the errors.
 

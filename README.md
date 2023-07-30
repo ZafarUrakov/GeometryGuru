@@ -21,6 +21,12 @@ double areaOfSquare = sideOfSquare * sideOfSquare;
 int & double & string & const
 ```
 A *constant* is a value that remains unchanged during program execution.
+#### Functions:
+```C#
+Output to console: Console.WriteLine();
+Input from console: Console.ReadLine();
+Converts: Convert.ToDouble();
+```
 #### Operators:
 ```C#
 if(){...}
@@ -28,7 +34,7 @@ else{...}
 ```
 The ***if-else*** construct is able to check one or more conditions, and if the condition is not true, then execute another code or check another condition.
 
-![](./demoGeometryGuru/demoWithIf.png)
+![](./demoGeometryGuru/demo7.png)
 
 ```C#
 switch
@@ -36,7 +42,7 @@ switch
 
 The ***switch*** statement provides multidirctional brancing in the program.
 
-![](./demoGeometryGuru/DemoInCodeSwitchVersion.png)
+![](./demoGeometryGuru/demo8.png)
 
 ```C#
 while(){...}
@@ -53,6 +59,8 @@ while (condition)
   // code block to be executed
 }
 ```
+![](./demoGeometryGuru/demo6.png)
+
 
 When you know exactly how many times you want to loop through a block of code, use the ***for*** loop instead of a ***while*** loop:
 ```C#
@@ -68,21 +76,23 @@ for (statement 1; statement 2; statement 3)
 
 **Statement 3** is executed (every time) after the code block has been executed.
 
+```C#
+try{...}
+catch(){...}
+```
+
+![](./demoGeometryGuru/demo5.png)
+
+
 #### To understand more, look at the code  and try to run it!
 
-#### Functions:
-```C#
-Output to console: Console.WriteLine();
-Input from console: Console.ReadLine();
-Converts: Convert.ToDouble();
-```
 
 Also in the code i used ***Escape Characters*** - replacement of control characters in the text with corresponding text substitutions.
 Read more , [link](https://codebuns.com/csharp-basics/escape-sequences/).
 
 #### Demo:
 
-![](./demoGeometryGuru/demoall1.png)
+![](./demoGeometryGuru/demo9.png)
 
 ## Release Notes
 In the [second](https://github.com/ZafarUrakov/GeometryGuru/tree/releases/v2.0) version of the project , we used only arithmetic operations with ***input*** and ***output*** to the console and we also used logical operations ***if-else*** and ***switch***.

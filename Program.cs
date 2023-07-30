@@ -6,9 +6,9 @@ namespace GeometryGuru
     {
         static void Main()
         {
+            start:
             try
             {
-                start:
 
                 Console.WriteLine(@"
                 1.Enter the application
@@ -76,15 +76,18 @@ namespace GeometryGuru
             }
             catch(FormatException formatException)    
             {
-                Console.WriteLine("Looks like the value you provided is not ingener. ");
+                Console.WriteLine("\nLooks like the value you provided is not ingener.\n");
+                goto start;
             }
             catch(OverflowException overFlowException)
             {
-                Console.WriteLine("Value you provided was either to large or too small.");
+                Console.WriteLine("\nValue you provided was either to large or too small.\n");
+                goto start;
             }
             catch(Exception exception)
             {
-                Console.WriteLine("Oops, something went wrong, contact support.");
+                Console.WriteLine("\nOops, something went wrong, contact support.\n");
+                goto start;
             }
         }    
     }
